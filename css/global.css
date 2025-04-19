@@ -1,0 +1,31 @@
+/* Toute la page */
+
+body {
+    min-width: 200px;
+    width: 70%;
+    margin: auto;
+    background-color: rgb(116, 115, 115);
+    color: rgb(234, 113, 37);
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: center;
+
+}
+
+nav li {
+    box-shadow: 0px 0px 15px rgb(255, 174, 123);
+    border-radius: 3px;
+
+    margin: 10px;
+    padding: 5px;
+}
+
+nav {
+    margin: auto;
+}

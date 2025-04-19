@@ -1,0 +1,92 @@
+main {
+    display: flex;
+    flex-flow: wrap row;
+    min-width: 30%;
+    font-size: medium;
+}
+
+
+main article {
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+    width: 310px;
+    height: 150px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+h2{
+    margin: 10px 10px;
+}
+
+aside {
+    float: right;
+    position: relative;
+    margin: 0;
+}
+
+body {
+    background-color: #343752;
+    color: white;
+    
+}
+*{
+    font-family: 'Calibri', Arial, sans-serif;
+}
+
+#email {
+    background-color: #37B6B7;
+}
+
+#finance {
+    background-color: #683FB7;
+}
+
+#calendar {
+    background-color: #B71C54 ;
+}
+
+#weather {
+    background-color: #4C98E7;
+}
+
+#music {
+    background-color: #DA542D;
+}
+
+#game {
+    background-color: #B71C54;
+}
+
+article section {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+article section:first-child {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+/* article:nth-child(-n+4){
+    padding: 10px;
+    /* Les 4 1er articles 
+}*/
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+figure{
+    position: absolute;
+    right: 0; top: 0;
+    margin: 0;
+}
+
+p{
+    margin: 0 10px;
+}

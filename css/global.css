@@ -110,7 +110,7 @@ footer {
     padding: 10px;
     background-color: rgb(32, 32, 32);
     color: rgb(100, 180, 50); /* Green color for footer */
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     bottom: 0;  
     width: 100%;

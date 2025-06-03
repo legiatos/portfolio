@@ -1,0 +1,90 @@
+/* Global Styling */
+main {
+    margin: 0;
+    padding: 0;
+}
+
+article, article a, article:visited {
+    color: rgb(100, 180, 50);
+    
+}
+
+article {
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+}
+
+article > p {
+    margin: 0 0 10px 0;
+}
+
+a {
+    padding: 0;
+}
+
+th h4 {
+    margin: 5px;
+}
+
+table * {
+    text-align: center;
+}
+
+/* Table with styled borders */
+
+/* Container to control the table's overall position */
+.ascii-table-container {
+    display: inline-block;
+    margin-top: 20px; /* Space between table and other content */
+}
+
+/* Table Styles */
+.ascii-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures the borders are merged */
+    font-family: monospace; /* Use monospace font for alignment */
+    background-color: black; /* Set background color */
+    color: white; /* Text color */
+    border-bottom: 1px solid white; /* Added bottom border for the whole table */
+}
+
+/* Table headers and body */
+.ascii-table th, .ascii-table td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 12px;
+    border-left: 1px solid white; /* White border between cells */
+    border-right: 1px solid white;
+}
+
+.ascii-table th {
+    border-top: 1px solid white; /* Top border for the header */
+    border-bottom: 1px solid white; /* Bottom border for the header */
+}
+
+.ascii-table td {
+    border-top: 1px solid white; /* Top border for data cells */
+}
+
+/* Add bottom border to the last row */
+.ascii-table tbody tr:last-child td {
+    border-bottom: 1px solid white; /* Ensure last row has a bottom border */
+}
+
+.ascii-table thead {
+    background-color: #333; /* Dark background for header */
+    font-weight: bold;
+}
+
+.ascii-table tbody {
+    background-color: #222; /* Slightly darker for body */
+}
+
+.ascii-table tr:first-child th {
+    border-top: 2px solid white; /* More prominent top border for the first row */
+}
+
+
+article>h4 {
+    margin: 0;
+}

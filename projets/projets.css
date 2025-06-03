@@ -1,0 +1,51 @@
+/* Article Styling */
+article {
+    background-color: rgb(32, 32, 32); /* Dark background for articles */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+article h3 {
+    font-size: 1.75em;
+    color: rgb(100, 180, 50); /* Green color inside articles */
+}
+
+article ul {
+    list-style: none;
+    padding-left: 0;
+    color: rgb(100, 180, 50); /* Green text color for lists */
+}
+
+article ul li {
+    margin-bottom: 10px;
+}
+
+article p {
+    color: rgb(100, 180, 50); /* Green text color for paragraphs */
+}
+
+article ol li {
+    padding: revert;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+main > div {
+    display: grid;
+    gap: 20px;
+}
+
+/* Link styles */
+a {
+    color: rgb(100, 180, 50); /* Green color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}

@@ -1,31 +1,117 @@
-/* Toute la page */
-
-body {
-    min-width: 200px;
-    width: 70%;
-    margin: auto;
-    background-color: rgb(116, 115, 115);
-    color: rgb(234, 113, 37);
+/* Global Styles */
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace; /* Consistent font family */
 }
 
-/* Navigation */
+body {
+    width: 80%;
+    margin: auto;
+    background-color: #2e2e2e;
+    color: #c8f3c8; /* Light green text */
+}
 
+/* Harmonized Typography */
+p, a, li {
+    font-size: 1.25em; /* Consistent font size for paragraphs and links */
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;  /* Uniform size for main headers */
+    color: rgb(100, 180, 50);    /* Accent color for headers */
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;   /* Slightly smaller than h1 */
+    color: rgb(100, 180, 50);
+}
+
+h3 {
+    font-size: 1.75em;  /* Uniform size for sub-headings */
+    color: rgb(100, 180, 50);     /* Green for sub-headings */
+}
+
+h4 {
+    font-size: 1.5em;  /* Harmonized size for h4 */
+    color: rgb(100, 180, 50);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.2em;  /* Consistent font size for footer */
+    color: #b4ff5e;
+}
+
+/* Links */
+a, a:visited {
+    color: #64b432;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Layout Tweaks */
 nav ul {
     display: flex;
-    flex-flow: row nowrap;
-    list-style: none;
     justify-content: center;
-
+    list-style: none;
+    padding: 10px;
 }
 
 nav li {
-    box-shadow: 0px 0px 15px rgb(255, 174, 123);
-    border-radius: 3px;
-
-    margin: 10px;
-    padding: 5px;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-nav {
-    margin: auto;
+nav a, nav a:visited {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav li:hover, nav .current {
+    background-color: #202020;
+    box-shadow: 0 0 15px rgba(200, 255, 200, 0.8);
+}
+
+nav li:hover a, nav .current a {
+    color: #64b432;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        width: 90%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+    color: rgb(100, 180, 50); /* Green color for footer */
+    position: fixed;
+    left: 0;
+    bottom: 0;  
+    width: 100%;
 }

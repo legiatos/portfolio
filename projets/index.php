@@ -1,6 +1,6 @@
 <?php
 // Charger le fichier JSON
-$json = file_get_contents("./data/projets.json");
+$json = file_get_contents("../data/projets.json");
 $projects = json_decode($json, true);
 ?>
 <!DOCTYPE html>

@@ -44,17 +44,21 @@ $projects = json_decode($json, true);
                                 <?php endforeach; ?>
                             </ol>
                             <br>
-                            <ul>
-                                <?php foreach ($proj["competences"] as $index => $c): ?>
-                                    <?php if ($c === ""): ?>
-                                        </ul>
-                                        <br>
-                                        <ul>
-                                    <?php else: ?>
-                                        <li><?= htmlspecialchars($c) ?></li>
-                                    <?php endif; ?>
-                                <?php endforeach; ?>
-                            </ul>
+                            <?php 
+                            $first = true;
+                            foreach ($proj["competences"] as $c): 
+                                if ($c === "") {
+                                    echo "</ul><br><ul>";
+                                } else {
+                                    if ($first) {
+                                        echo "<ul>";
+                                        $first = false;
+                                    }
+                                    echo "<li>" . htmlspecialchars($c) . "</li>";
+                                }
+                            endforeach; 
+                            echo "</ul>";
+                            ?>
                         </div>
                     </a>
                 </article>

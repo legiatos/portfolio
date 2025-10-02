@@ -1,0 +1,124 @@
+{
+    "siteAtos": {
+        "nom": "Implémentation d’un besoin client & comparaison d’approches algorithmique",
+        "tailleGroupe": 2,
+        "resume": [
+            "Développement de différents algorithmes d’apprentissage automatique",
+            "Utilisation de git/gitlab pour partager la charge de travail"
+        ],
+        "competences": [
+            "Implémenter des conceptions simples",
+            "Élaborer des conceptions simples",
+            "Faire des essais et évaluer leurs résultats en regard des spécifications",
+            "",
+            "Analyser un problème avec méthode",
+            "Comparer des algorithmes pour des problèmes classiques",
+            "Formaliser et mettre en œuvre des outils mathématiques pour l’informatique",
+            "",
+            "Mettre en place les outils de gestion de projet",
+            "Identifier les acteurs et les différentes phases d’un cycle de développement",
+            "",
+            "Appréhender l’écosystème numérique",
+            "Acquérir les compétences interpersonnelles pour travailler en équipe"
+        ]
+    },
+    "baseDonnees": {
+        "nom": "Création d’une base de données",
+        "tailleGroupe": 2,
+        "resume": [
+            "Passage d’un SEA en SLR",
+            "Création d’une base de données selon certaines contraintes",
+            "Utilisation de git/gitlab pour partager la charge de travail"
+        ],
+        "competences": [
+            "Mettre à jour et interroger une base de données relationnelle",
+            "Visualiser des données",
+            "Concevoir une base de données relationnelle à partir d’un cahier des charges",
+            "",
+            "Appréhender les besoins du client et de l’utilisateur",
+            "Mettre en place les outils de gestion de projet",
+            "Identifier les acteurs et les différentes phases d’un cycle de développement",
+            "",
+            "Appréhender l’écosystème numérique",
+            "Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire",
+            "Acquérir les compétences interpersonnelles pour travailler en équipe",
+            ""
+        ]
+    },
+    "posteDev": {
+        "nom": "Installation d’un poste pour le développement",
+        "tailleGroupe": 2,
+        "resume": [
+            "Installation d’un Debian sur machine virtuelle, et mise en place de logiciels pour le développement (IDE, logiciels Bash…)",
+            "Création d’une carte mentale pour vulgariser l’installation des logiciels"
+        ],
+        "competences": [
+            "Identifier les différents composants (matériels et logiciels) d’un système numérique",
+            "Utiliser les fonctionnalités de base d’un système multitâches & multiutilisateurs",
+            "Installer et configurer un système d’exploitation et des outils de développement"
+        ]
+    },
+    "recueilAtos": {
+        "nom": "Recueil de besoins & découverte de l’environnement économique et numérique",
+        "tailleGroupe": 4,
+        "resume": [
+            "Réalisation d’un recueil de besoins pour un site de présentation de l’entreprise Atos",
+            "Développement d’une maquette puis d’un site web avec les informations du recueil de besoin",
+            "Utilisation de google drive & git/gitlab pour partager la charge de travail"
+        ],
+        "competences": [
+            "Implémenter des conceptions simples",
+            "Élaborer des conceptions simples",
+            "Faire des essais et évaluer leurs résultats en regard des spécifications",
+            "Développer des interfaces utilisateurs",
+            "",
+            "Appréhender les besoins du client et de l’utilisateur",
+            "Mettre en place les outils de gestion de projet",
+            "Identifier les acteurs et les différentes phases d’un cycle de développement",
+            "",
+            "Appréhender l’écosystème numérique",
+            "Découvrir les aptitudes requises selon les différents secteurs informatiques",
+            "Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire",
+            "Acquérir les compétences interpersonnelles pour travailler en équipe",
+            ""
+        ]
+    },
+    "nuitCode": {
+        "nom": "Développement d’un jeu lors de la Nuit du Code 2024",
+        "tailleGroupe": 3,
+        "resume": [
+            "Developpement du moteur de jeu (à 2)",
+            "Création des niveaux & musiques en utilisant des ressources limitées",
+            "Developpement en 2 equipes separées, avec un seul regroupement du projet"
+        ],
+        "competences": [
+            "Implémenter des conceptions simples",
+            "Faire des essais et évaluer leurs résultats en regard des spécifications",
+            "Développer des interfaces utilisateurs",
+            "",
+            "Mettre en place les outils de gestion de projet",
+            "Identifier les acteurs et les différentes phases d’un cycle de développement",
+            "",
+            "Appréhender l’écosystème numérique",
+            "Découvrir les aptitudes requises selon les différents secteurs informatiques",
+            "Identifier les statuts, les fonctions et les rôles de chaque membre d’une équipe pluridisciplinaire",
+            "",
+            "Acquérir les compétences interpersonnelles pour travailler en équipe"
+        ]
+    },
+    "serveur": {
+        "nom": "serveur NAS & minecraft",
+        "tailleGroupe": 1,
+        "resume": [
+            "Mise en place d’un serveur Ubuntu",
+            "Installation de Samba pour le partage de fichiers",
+            "Création d'une interface SSH",
+            "Mise en place d'un serveur Minecraft ouvert au public"
+        ],
+        "competences": [
+            "Identifier les différents composants (matériels et logiciels) d’un système numérique",
+            "Utiliser les fonctionnalités de base d’un système multitâches /multiutilisateurs",
+            "Installer et configurer un système d’exploitation et des outils de développement"
+        ]
+    }
+}

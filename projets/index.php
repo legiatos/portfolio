@@ -45,9 +45,11 @@ $projects = json_decode($json, true);
                             </ol>
                             <br>
                             <ul>
-                                <?php foreach ($proj["competences"] as $c): ?>
+                                <?php foreach ($proj["competences"] as $index => $c): ?>
                                     <?php if ($c === ""): ?>
+                                        </ul>
                                         <br>
+                                        <ul>
                                     <?php else: ?>
                                         <li><?= htmlspecialchars($c) ?></li>
                                     <?php endif; ?>

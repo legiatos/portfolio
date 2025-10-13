@@ -7,10 +7,18 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     width: 80%;
     margin: auto;
     background-color: #2e2e2e;
     color: #c8f3c8; /* Light green text */
+}
+
+/* Make main fill remaining space */
+main {
+    flex: 1;
 }
 
 /* Harmonized Typography */
@@ -40,12 +48,26 @@ h4 {
     color: rgb(100, 180, 50);
 }
 
+/* Sticky Header */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #2e2e2e; /* Match body background */
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
 /* Footer Styles */
 footer {
     text-align: center;
-    margin-top: 40px;
-    font-size: 1.2em;  /* Consistent font size for footer */
-    color: #b4ff5e;
+    padding: 10px;
+    background-color: rgb(32, 32, 32);
+    color: rgb(100, 180, 50); /* Green color for footer */
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;  
+    width: 100%;
 }
 
 /* Links */
@@ -102,16 +124,4 @@ nav li:hover a, nav .current a {
         margin: 10px 0;
         text-align: center;
     }
-}
-
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: rgb(32, 32, 32);
-    color: rgb(100, 180, 50); /* Green color for footer */
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;  
-    width: 100%;
 }

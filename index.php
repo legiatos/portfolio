@@ -11,22 +11,27 @@
     <header>
         <h1>Krumb Simon</h1>
         <h2>Étudiant BUT Informatique</h2>
+        <nav>
+            <ul>
+                <li class="current"><a href="./">Accueil</a></li>
+                <!-- <li><a href="./projets/">Mon travail</a></li> -->
+                <li><a href="./qui-suis-je/">Qui suis-je?</a></li>
+                <li><a href="./contact/">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li class="current"><a href="./">Accueil</a></li>
-            <!-- <li><a href="./projets/">Mon travail</a></li> -->
-            <li><a href="./qui-suis-je/">Qui suis-je?</a></li>
-            <li><a href="./contact/">Contact</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <p>
-            
-        </p>
+        <h1>
+            Bienvenue sur mon portfolio!
+        </h1>
+        <h3> 
+            Je suis KRUMB Simon, étudiant de 18 ans. Informatitien, scout laïque, et sportif a mes heures perdues!
+            <br>
+            Vous pouvez trouver plus d'informations concernant mes projets & experiences en cliquant dessus!
+        </h3>
         <h1>MES PROJET</h1>
+        <br>
         <div>
             <?php
             $jsonPath = './data/projets.json';

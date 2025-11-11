@@ -16,16 +16,19 @@
     <nav>
         <ul>
             <li class="current"><a href="./">Accueil</a></li>
-            <li><a href="./projets/">Mon travail</a></li>
+            <!-- <li><a href="./projets/">Mon travail</a></li> -->
             <li><a href="./qui-suis-je/">Qui suis-je?</a></li>
             <li><a href="./contact/">Contact</a></li>
         </ul>
     </nav>
 
     <main>
+        <p>
+            
+        </p>
+        <h1>MES PROJET</h1>
         <div>
             <?php
-            // Load JSON file
             $jsonPath = './data/projets.json';
             if (file_exists($jsonPath)) {
                 $jsonData = file_get_contents($jsonPath);
@@ -40,14 +43,14 @@
                     $nom = htmlspecialchars($project['nom']);
 
                     echo <<<HTML
-<article>
-    <a href="./projets/index.php#{$counter}">
-        <div>
-            <h3>krumb@simon:~/$command "$nom"_</h3>
-        </div>
-    </a>
-</article>
-HTML;
+                        <article>
+                            <a href="./projets/projet.php?projetID={$key}">
+                                <div>
+                                    <h3>krumb@simon:~/$command "$nom"_</h3>
+                                </div>
+                            </a>
+                        </article>
+                    HTML;
                     $counter++;
                 }
             } else {

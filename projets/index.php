@@ -10,7 +10,7 @@ $projects = json_decode($json, true);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes Projets</title>
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="projets.css">
+    <link rel="stylesheet" href="./project.css">
 </head>
 <body>
     <header>

@@ -1,3 +1,21 @@
+<?php
+
+if (isset($_GET["nom"])) {
+    $oldData = file_get_contents("tentativeDeContact.json");
+    $tempArray = json_decode($oldData, true);
+    $json = array("nom" => $_GET["nom"],
+                  "prenom" => $_GET["prenom"],
+                  "mail" => $_GET["mail"],
+                  "objet" => $_GET["objet"],
+                  "message" => $_GET["message"]);
+    $tempArray[] = $json;
+
+    file_put_contents("tentativeDeContact.json", json_encode($tempArray));
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -58,29 +76,24 @@
                 </table>
             </div>
             
-            <h4>Contactez-nous</h4>
+            <h4>Contactez-moi !</h4>
             <div class="form">
-                <form action="">
+                <form action="index.php">
                     <div>
-                        <label><p>Nom</p><input type="text" name="nom" id="nom"></label>
-                        <label><p>Prenom: </p><input type="text" name="prenom" id="prenom"></label>
+                        <label><p>Nom: </p><input type="text" name="nom" id="nom" required></label>
+                        <label><p>Prenom: </p><input type="text" name="prenom" id="prenom" required></label>
                     </div>
-                    <label><p>Email: </p><input type="email" name="mail" id="mail"></label>
+                    <label><p>Email: </p><input type="email" name="mail" id="mail" required></label>
                     
-                    <!-- <label>
-                        <p>Option: </p>
-                        <select name="" id="">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                        </select>
-                    </label> -->
-                    <label><p>Objet: </p><input type="text" name="objet" id="objet"></label>
+
+                    <label><p>Objet: </p><input type="text" name="objet" id="objet" required></label>
                     
-                    <label><p>Message: </p><textarea name="message" id="message"></textarea></label>
+                    <label><p>Message: </p><textarea name="message" id="message" required></textarea></label>
+                    
                     <input type="submit" value="Envoyer">
+                    <?php if (isset($_GET["nom"])) : ?>
+                        <p>Merci de votre message, je vous contacterais des que possible !</p>
+                    <?php endif; ?>
                 </form>
                 
             </div>

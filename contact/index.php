@@ -29,16 +29,16 @@ if (isset($_GET["nom"])) {
     <header>
         <h1>Krumb Simon</h1>
         <h2>Contact</h2>
-    </header>
-
-    <nav>
+        <nav>
         <ul>
             <li><a href="../">Accueil</a></li>
-            <!-- <li><a href="../projets/">Mon travail</a></li> -->
             <li><a href="../qui-suis-je/">Qui suis-je?</a></li>
             <li class="current"><a href="../contact/">Contact</a></li>
         </ul>
     </nav>
+    </header>
+
+    
 
     <main>
         <article>

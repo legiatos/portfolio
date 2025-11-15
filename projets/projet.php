@@ -35,13 +35,13 @@ if (isset($_GET["projetID"])) {
             <li><a href="../contact/">Contact</a></li>
         </ul>
     </nav>
-
+    <!-- changer le json en BD, avec des dates -->
     <article>
         <?php if (isset($_GET["projetID"])): ?>
             <h1><?php echo $projet["nom"]?></h1>
 
             <section>
-                <h3> Resumé du projet </h3>
+                <h3> Résumé du projet </h3>
                 <ul>
                     <?php foreach ($projet["resume"] as $key => $value): ?>
                     <li><? echo $value?></li>

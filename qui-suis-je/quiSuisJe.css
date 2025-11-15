@@ -1,136 +1,55 @@
-
-
-main > div > * {
-    padding: 10px;
-}
-
-.general {
-    grid-column: 1/3;
-    grid-row: 1;
-}
-
-/* grille */
-
-.grille{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 0px;
-}
-
-.general {
-    /* grid-column: 1/3;
-    grid-row: 1; */
-    grid-area: 1 / 1 / 2 / 3;
-    max-height: 300px;
-}
-
-.general * {
-    display: inline;
-}
-
-.info{
-    /* grid-column: 3;
-    grid-row: 1/2; */
-    grid-area: 2 / 1 / 3 / 3;
-}
-
-.sport {
-    /* grid-column: 1;
-    grid-row: 2/3; */
-    grid-area: 1 / 3 / 4 / 4;
-}
-
-.scout {
-    /* grid-column: 1;
-    grid-row: 3; */
-    grid-area: 3 / 1 / 4 / 3;  
-}
-
-
-
-/* main > div > article {
-    border: 3px solid red;
-} */
-
 /* General */
-
-.general ul {
+main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 15px;
+    flex-flow: column;
+    align-items: center ;
 }
 
-.general ul li {
-    list-style: "⇒";
+article {
+    margin: 20px 0;
 }
 
-.general ul li span {
-    /* text-align: center; */
-    display: block;
-    margin-left: 5px;
+/* Presentation */
+
+h1, .presentation h3 {
+    text-align: center;
 }
 
-/* Parcours */
+/* Les autres articles */
 
-/* fieldset */
 
-fieldset {
-    /* background & espacement */
-
-    padding: 5px;
-    
-    background-color: rgb(32, 32, 32);
-    
-    /* Texte */
-    
-    color: rgb(100, 180, 50);
+.hidden {
+    display: none;
 }
 
-.info fieldset{
-    border:1px solid black;
-    transition: transform .2s ease;
-    overflow: hidden;
-    
+article:not(.presentation) {
+    text-align: justify;
+    width: 70%;
 }
 
-.info fieldset:hover {
-    transform: scale(1.02);
-}
-
-.info ul {
+main ul {
     list-style: none;
-    padding-left: 0;
+    padding: 0;
 }
 
-.info h4{
-    margin-bottom: 0;
-    margin-top: 0;
-    text-shadow: 0 0 10px rgba(100, 180, 50, 0.5);
+main button:last-of-type {
+    margin-bottom: 10px;
 }
 
-
-
-/* sport */
-
-.sport fieldset{
-    margin: 15px;
-    border:1px solid black;
-    transition: transform .2s ease;
-    overflow: hidden;
+/* Button styling */
+button {
+  background: #202020;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(100, 180, 50);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1;
+  display: inline-block;
+  width: 400px;
 }
 
-.sport fieldset:hover {
-    transform: scale(1.02);
-}
-
-.sport ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.sport h4{
-    margin-bottom: 0;
-    margin-top: 0;
+button ~ button {
+    margin-top: 10px;
 }

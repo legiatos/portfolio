@@ -81,7 +81,7 @@ if (isset($_GET["nom"])) {
                 <form action="index.php">
                     <div>
                         <label><p>Nom: </p><input type="text" name="nom" id="nom" required></label>
-                        <label><p>Prenom: </p><input type="text" name="prenom" id="prenom" required></label>
+                        <label><p>Prénom: </p><input type="text" name="prenom" id="prenom" required></label>
                     </div>
                     <label><p>Email: </p><input type="email" name="mail" id="mail" required></label>
                     

@@ -16,7 +16,7 @@ if (isset($_GET["projetID"])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php $projet ?></title>
+    <title><?php echo $projet['nom'] ?></title>
     <link rel="stylesheet" href="./projets.css">
     <link rel="stylesheet" href="../css/global.css">
 </head>
@@ -33,6 +33,7 @@ if (isset($_GET["projetID"])) {
             <!-- <li><a href="./index.php">Mon travail</a></li> -->
             <li><a href="../qui-suis-je/">Qui suis-je?</a></li>
             <li><a href="../contact/">Contact</a></li>
+            <li><a href="../data/CV KRUMB Simon.pdf" download="">Mon CV</a></li>
         </ul>
     </nav>
     <!-- changer le json en BD, avec des dates -->

@@ -34,6 +34,7 @@ if (isset($_GET["nom"])) {
             <li><a href="../">Accueil</a></li>
             <li><a href="../qui-suis-je/">Qui suis-je?</a></li>
             <li class="current"><a href="../contact/">Contact</a></li>
+            <li><a href="../data/CV KRUMB Simon.pdf" download="">Mon CV</a></li>
         </ul>
     </nav>
     </header>

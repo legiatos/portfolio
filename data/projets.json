@@ -120,5 +120,37 @@
             "Utiliser les fonctionnalités de base d’un système multitâches /multiutilisateurs",
             "Installer et configurer un système d’exploitation et des outils de développement"
         ]
+    },
+    "SAE3": {
+        "nom":"Conception & réalisation d'une application web pour les aidants familiaux",
+        "tailleGroupe":6,
+        "resume": [
+            "Création d'un application destinée à aider les aidants familiaux (proche aidant d’une personne âgée en perte d’autonomie)",
+            "Conception de l'application, allant du concept à la création previsionnelle de l'interface en passant par les confirmitées RGPD",
+            "Responsable technique sur le dveloppement de l'application (referent pour toutes les questions concernants les technologies utilisées ou l'architecture logicielle",
+            "Utilisation de React.js et PHP"
+        ],
+        "competences": [
+            "Élaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences",
+            "Appliquer des principes d’accessibilité et d’ergonomie",
+            "Adopter de bonnes pratiques de conception et de programmation",
+            "",
+            "Choisir des structures de données complexes adaptées au problème",
+            "Comprendre les enjeux et moyens de sécurisation des données et du code",
+            "",
+            "Concevoir et développer des applications communicantes",
+            "Utiliser des serveurs et des services réseaux virtualisés",
+            "",
+            "Optimiser les modèles de données de l’entreprise",
+            "Assurer la sécurité des données (intégrité et confidentialité)",
+            "Organiser la restitution de données à travers la programmation et la visualisation",
+            "Manipuler des données hétérogènes",
+            "Formaliser les besoins du client et de l'utilisateur",
+            "Identifier les critères de faisabilité d’un projet informatique",
+            "Définir et mettre en œuvre une démarche de suivi de projet",
+            "Appliquer une démarche pour intégrer une équipe informatique au sein d’une organisation",
+            "Mobiliser les compétences interpersonnelles pour travailler dans une équipe informatique",
+            "Rendre compte de son activité professionnelle"
+        ]
     }
 }
